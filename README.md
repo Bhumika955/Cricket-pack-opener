@@ -10,12 +10,19 @@ Simulate the excitement of opening cricket player card packs with animations, re
 ⚡ Features
 
 ✅ Packs – Bronze, Silver, Gold (with different odds & prices). Each contains ~5 random player cards.
+
 ✅ Opening Flow – Pack shakes, glows, flip-reveal, staggered reveals or “reveal all.” Rare pulls trigger slow-mo, glow, sparks, confetti.
+
 ✅ Cards – 4 rarities (Common, Rare, Epic, Legend) with unique card frames, cricket stats, and player photos.
+
 ✅ Inventory – Saved in localStorage with duplicate handling (auto-convert or upgrade).
+
 ✅ UI/UX – Responsive design, smooth 60fps animations, sound effects (open/flip/rare hit) with mute/unmute toggle button.
+
 ✅ Collection View – "My Collection" with filters (rarity, team, role).
+
 ✅ Summary Modal – After pack opening, shows pulled cards.
+
 ✅ Odds Tooltip – Shows drop rates before opening.
 
 🛠️ Tech Stack
