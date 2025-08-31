@@ -1,0 +1,36 @@
+// src/data/players.js
+// Mock player data with tiers and stats
+// For demo, minimal players, normally you would add many
+// src/data/players.js
+export const PLAYERS = [
+  { id: 1, name: "Virat Kohli", role: "BAT", team: "India", tier: "Legend", rating: 98, stats: { matches: 254, runs: 12000, avg: 59.3, hundreds: 43 }, photo: "/assets/virat.png" },
+  { id: 2, name: "Jasprit Bumrah", role: "BOWL", team: "India", tier: "Epic", rating: 92, stats: { matches: 67, wickets: 150, eco: 3.5 }, photo: "/assets/bumrah.png" },
+  { id: 3, name: "Ben Stokes", role: "AR", team: "England", tier: "Rare", rating: 85, stats: { matches: 80, runs: 4000, wickets: 100 }, photo: "/assets/stokes.png" },
+  { id: 4, name: "Jos Buttler", role: "WK", team: "England", tier: "Common", rating: 75, stats: { matches: 90, runs: 3000, avg: 38 }, photo: "/assets/buttler.png" },
+  { id: 5, name: "Steve Smith", role: "BAT", team: "Australia", tier: "Legend", rating: 97, stats: { matches: 130, runs: 7000, avg: 61.8, hundreds: 27 }, photo: "/assets/smith.png" },
+  { id: 6, name: "Pat Cummins", role: "BOWL", team: "Australia", tier: "Epic", rating: 90, stats: { matches: 55, wickets: 120, eco: 3.8 }, photo: "/assets/cummins.png" },
+  { id: 7, name: "Kane Williamson", role: "BAT", team: "New Zealand", tier: "Rare", rating: 88, stats: { matches: 85, runs: 6100, avg: 47.2 }, photo: "/assets/williamson.png" },
+  { id: 8, name: "Quinton de Kock", role: "WK", team: "South Africa", tier: "Rare", rating: 83, stats: { matches: 70, runs: 3500, avg: 36 }, photo: "/assets/dekock.png" },
+  { id: 9, name: "Rashid Khan", role: "BOWL", team: "Afghanistan", tier: "Epic", rating: 91, stats: { matches: 50, wickets: 110, eco: 3.2 }, photo: "/assets/rashid.png" },
+  { id: 10, name: "Shubman Gill", role: "BAT", team: "India", tier: "Common", rating: 72, stats: { matches: 25, runs: 900, avg: 42 }, photo: "/assets/gill.png" },
+  { id: 11, name: "Trent Boult", role: "BOWL", team: "New Zealand", tier: "Rare", rating: 84, stats: { matches: 60, wickets: 130, eco: 3.6 }, photo: "/assets/boult.png" },
+  { id: 12, name: "David Warner", role: "BAT", team: "Australia", tier: "Rare", rating: 87, stats: { matches: 100, runs: 5700, avg: 45.7 }, photo: "/assets/warner.png" },
+  { id: 13, name: "KL Rahul", role: "WK", team: "India", tier: "Rare", rating: 82, stats: { matches: 60, runs: 3100, avg: 39 }, photo: "/assets/rahul.png" },
+  { id: 14, name: "Moeen Ali", role: "AR", team: "England", tier: "Common", rating: 74, stats: { matches: 70, runs: 2300, wickets: 80 }, photo: "/assets/moeen.png" },
+  { id: 15, name: "Jason Holder", role: "AR", team: "West Indies", tier: "Rare", rating: 80, stats: { matches: 50, runs: 1600, wickets: 75 }, photo: "/assets/holder.png" },
+  { id: 16, name: "Faf du Plessis", role: "BAT", team: "South Africa", tier: "Rare", rating: 83, stats: { matches: 90, runs: 4300, avg: 41.5 }, photo: "/assets/duplessis.png" },
+  { id: 17, name: "Babar Azam", role: "BAT", team: "Pakistan", tier: "Epic", rating: 90, stats: { matches: 70, runs: 4200, avg: 54.3 }, photo: "/assets/babar.png" },
+  { id: 18, name: "Shaheen Afridi", role: "BOWL", team: "Pakistan", tier: "Rare", rating: 85, stats: { matches: 40, wickets: 60, eco: 3.4 }, photo: "/assets/afridi.png" },
+  { id: 19, name: "Kagiso Rabada", role: "BOWL", team: "South Africa", tier: "Epic", rating: 89, stats: { matches: 55, wickets: 110, eco: 3.1 }, photo: "/assets/rabada.png" },
+  { id: 20, name: "Shai Hope", role: "BAT", team: "West Indies", tier: "Common", rating: 70, stats: { matches: 55, runs: 2100, avg: 37 }, photo: "/assets/hope.png" },
+  { id: 21, name: "Andre Russell", role: "AR", team: "West Indies", tier: "Rare", rating: 82, stats: { matches: 40, runs: 1300, wickets: 45 }, photo: "/assets/russell.png" },
+  { id: 22, name: "Ajinkya Rahane", role: "BAT", team: "India", tier: "Common", rating: 73, stats: { matches: 60, runs: 2800, avg: 39 }, photo: "/assets/rahane.png" },
+  { id: 23, name: "Martin Guptill", role: "BAT", team: "New Zealand", tier: "Common", rating: 71, stats: { matches: 80, runs: 3500, avg: 38 }, photo: "/assets/guptill.png" },
+  { id: 24, name: "Yuzvendra Chahal", role: "BOWL", team: "India", tier: "Rare", rating: 83, stats: { matches: 60, wickets: 110, eco: 4.5 }, photo: "/assets/chahal.png" },
+  { id: 25, name: "Sam Curran", role: "AR", team: "England", tier: "Rare", rating: 81, stats: { matches: 40, runs: 1100, wickets: 50 }, photo: "/assets/curran.png" },
+  { id: 26, name: "Rohit Sharma", role: "BAT", team: "India", tier: "Epic", rating: 91, stats: { matches: 200, runs: 9200, avg: 49.3 }, photo: "/assets/rohit.png" },
+  { id: 27, name: "Glenn Maxwell", role: "AR", team: "Australia", tier: "Rare", rating: 79, stats: { matches: 70, runs: 3400, wickets: 70 }, photo: "/assets/maxwell.png" },
+  { id: 28, name: "Dinesh Karthik", role: "WK", team: "India", tier: "Common", rating: 68, stats: { matches: 60, runs: 1800, avg: 33 }, photo: "/assets/karthik.png" },
+  { id: 29, name: "Patrice Evra", role: "BAT", team: "South Africa", tier: "Common", rating: 66, stats: { matches: 40, runs: 1200, avg: 31 }, photo: "/assets/evra.png" },
+  { id: 30, name: "Ravi Jadeja", role: "AR", team: "India", tier: "Epic", rating: 88, stats: { matches: 95, runs: 3200, wickets: 190 }, photo: "/assets/jadeja.png" },
+];
